@@ -32,7 +32,7 @@ jobs:
 
             sudo apt-get install g++
             sudo chmod 777 gradlew
-            rm -rf /usr/local/lib/android/sdk/ndk/21.4.7075529
+            rm -rf /usr/local/lib/android/sdk/ndk
             gradle init
             ./gradlew clean assembleDebug --no-daemon --stacktrace
               ls -l
