@@ -32,7 +32,8 @@ jobs:
 
             sudo apt-get install g++
             sudo chmod 777 gradlew
-            gradle init
+            
+            #gradle init
             ./gradlew clean assembleDebug --no-daemon --stacktrace
               ls -l
               echo done!
